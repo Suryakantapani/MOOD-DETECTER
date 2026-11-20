@@ -155,7 +155,8 @@ MOOD-DETECTER/
 ├── package-lock.json
 ├── vite.config.js
 ├── .gitignore
-└── README.md
+└── README.md  
+```
 
 ⚙️ Installation and Setup
 
@@ -205,19 +206,19 @@ Note: Ensure that the trained .keras model is available at the model path config
 
 ⸻
 
-📸 Screenshots
+<!--📸 Screenshots
 
-Add your project screenshots here to demonstrate the user interface and model predictions.
+<!--Add your project screenshots here to demonstrate the user interface and model predictions.
 
-Dashboard
+<!-- Dashboard
 
-<!-- Add dashboard screenshot here -->
+  Add dashboard screenshot here -->
 
-Emotion Detection
+<!--Emotion Detection
 
 <!-- Add emotion detection screenshot here -->
 
-Prediction Results
+<!--Prediction Results
 
 <!-- Add prediction result screenshot here -->
 
@@ -245,11 +246,6 @@ GitHub: @Suryakantapani
 
 ⸻
 
-📜 License
-
-This project is developed for educational and research purposes.
-
-⸻
 
 <p align="center">
   ⭐ If you find this project interesting, consider giving it a star!
