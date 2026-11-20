@@ -129,8 +129,9 @@ The dataset is used for training and evaluating the facial emotion recognition m
 
 ⸻
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 MOOD-DETECTER/
 │
 ├── emotion-backend/
@@ -155,8 +156,6 @@ MOOD-DETECTER/
 ├── vite.config.js
 ├── .gitignore
 └── README.md
-
-⸻
 
 ⚙️ Installation and Setup
 
