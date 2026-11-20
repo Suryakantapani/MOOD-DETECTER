@@ -158,53 +158,128 @@ MOOD-DETECTER/
 └── README.md  
 ```
 
-⚙️ Installation and Setup
+# ⚙️ Installation and Setup
 
-Follow these steps to run the project locally.
+Follow these steps to clone and run the MOOD-DETECTER project locally.
 
-1. Clone the Repository
+## Prerequisites
 
+Make sure you have installed:
+
+- Python 3
+- Node.js and npm
+- Git
+
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/Suryakantapani/MOOD-DETECTER.git
+```
 
-2. Navigate to the Project
+Navigate to the project directory:
 
+```bash
 cd MOOD-DETECTER
+```
 
-3. Install Frontend Dependencies
+## 2. Frontend Setup
 
+Install the required dependencies:
+
+```bash
 npm install
+```
 
-4. Start the Frontend
+Start the frontend development server:
 
+```bash
 npm run dev
+```
 
-The frontend will generally run at:
+Frontend URL:
 
+```text
 http://localhost:5173
+```
 
-5. Configure the Backend
+## 3. Backend Setup
 
-Open another terminal:
+Open a new terminal and navigate to the backend directory:
 
+```bash
 cd emotion-backend
+```
 
-Create a virtual environment:
+Create a Python virtual environment:
 
+```bash
 python3 -m venv venv
+```
 
-Activate it on macOS/Linux:
+Activate the virtual environment.
 
+**macOS / Linux:**
+
+```bash
 source venv/bin/activate
+```
 
-Install the backend dependencies:
+**Windows:**
 
-pip install -r requirements.txt
+```bash
+venv\Scripts\activate
+```
 
-Start the Python backend using the appropriate entry point configured in app.py.
+## 4. Install Backend Dependencies
 
-Note: Ensure that the trained .keras model is available at the model path configured in the backend.
+Upgrade pip:
 
-⸻
+```bash
+python -m pip install --upgrade pip
+```
+
+Install the required packages:
+
+```bash
+pip install flask flask-cors numpy tensorflow
+```
+
+Install OpenCV:
+
+```bash
+pip install opencv-python==4.11.0.86
+```
+
+## 5. Run the Backend
+
+Start the Python backend:
+
+```bash
+python app.py
+```
+
+Backend URL:
+
+```text
+http://localhost:5000
+```
+
+## 6. Run the Complete Application
+
+Keep both frontend and backend terminals running.
+
+| Component | Command | Port |
+|---|---|---|
+| Frontend | `npm run dev` | 5173 |
+| Backend | `python app.py` | 5000 |
+
+Open your browser:
+
+**http://localhost:5173**
+
+Your MOOD-DETECTER application is now ready to use!
+
+---
 
 <!--📸 Screenshots
 
